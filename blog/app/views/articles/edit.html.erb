@@ -1,5 +1,5 @@
 <h1> Editing Article </h1>
-
+<!--
 <%= form_for :article, url: article_path(@article), method: :patch do |f| %>
 
 	<% if @article.errors.any? %>
@@ -35,5 +35,7 @@
   </p>
   
 <% end %>
+-->
+<%= render 'form' %>
 
 <%= link_to 'Back', articles_path %>
